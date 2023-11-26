@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "description": "Full-Stack Invoicing Application",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jakubjirous/invoice-app.git"
-  },
   "keywords": [
     "clerk-auth",
     "frontendmentor",
@@ -21,16 +17,20 @@
     "vercel",
     "vercel-postgres"
   ],
-  "author": "Jakub Jirous <info@jakubjirous.dev>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakubjirous/invoice-app.git"
+  },
   "license": "MIT",
+  "author": "Jakub Jirous <info@jakubjirous.dev>",
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "dev": "next dev",
     "lint": "next lint",
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
-    "seed": "node -r dotenv/config ./scripts/seed.js"
+    "seed": "node -r dotenv/config ./scripts/seed.js",
+    "start": "next start"
   },
   "dependencies": {
     "@clerk/nextjs": "^4.27.2",
