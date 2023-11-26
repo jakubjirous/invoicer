@@ -7,13 +7,13 @@ This is a solution to the [Invoice app challenge on Frontend Mentor](https://www
 ## ✅ Table of contents
 
 - [Overview](#-overview)
-    - [The challenge](#the-challenge)
-    - [Screenshots](#screenshots)
-    - [Links](#links)
+  - [The challenge](#the-challenge)
+  - [Screenshots](#screenshots)
+  - [Links](#links)
 - [My process](#-my-process)
-    - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
-    - [Useful resources](#useful-resources)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
 - [Author](#-author)
 
 ---
@@ -71,7 +71,7 @@ Users should be able to:
 - Accessibility in mind
 - [Next.js 14](https://nextjs.org/) – Full-Stack Web Framework
 - [React](https://reactjs.org/) – JS library
-- [Clerk](https://clerk.com/) – Authentication and User Management 
+- [Clerk](https://clerk.com/) – Authentication and User Management
 - [Prisma](https://www.prisma.io/) – Node.js and TypesScript ORM
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vitest](https://vitest.dev/) – Next Generation Testing Framework
@@ -83,18 +83,18 @@ Users should be able to:
 
 - **Next.js 14:**
 
-    - TODO
+  - TODO
 
 - **Clerk:**
 
   - TODO
-  
+
 - **Prisma:**
 
-    - TODO
+  - TODO
 
 - **Vercel Postgres:**
-  
+
   - TODO
 
 - **Storybook:**
