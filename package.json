@@ -1,27 +1,59 @@
 {
   "name": "invoice-app",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "Full-Stack Invoicing Application",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakubjirous/invoice-app.git"
+  },
+  "keywords": [
+    "clerk-auth",
+    "frontendmentor",
+    "frontendmentor-challenge",
+    "nextjs14",
+    "prisma",
+    "react",
+    "server-components",
+    "tailwind",
+    "typescript",
+    "typescript-react",
+    "vercel",
+    "vercel-postgres"
+  ],
+  "author": "Jakub Jirous <info@jakubjirous.dev>",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier --write --ignore-unknown .",
+    "prettier:check": "prettier --check --ignore-unknown .",
+    "seed": "node -r dotenv/config ./scripts/seed.js"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.3"
+    "@clerk/nextjs": "^4.27.2",
+    "@heroicons/react": "^2.0.18",
+    "@tailwindcss/forms": "^0.5.7",
+    "next": "14.0.4-canary.17",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.3"
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.38",
+    "@types/react-dom": "^18.2.17",
+    "@vercel/style-guide": "^5.1.0",
+    "autoprefixer": "^10.4.16",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.54.0",
+    "eslint-config-next": "14.0.3",
+    "eslint-config-prettier": "^9.0.0",
+    "postcss": "^8.4.31",
+    "prettier-plugin-tailwindcss": "^0.5.7",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.3.2"
   }
 }
