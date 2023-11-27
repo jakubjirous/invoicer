@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^4.27.2",
+    "@clerk/themes": "^1.7.9",
     "@heroicons/react": "^2.0.18",
     "@tailwindcss/forms": "^0.5.7",
     "next": "14.0.4-canary.17",
