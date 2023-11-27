@@ -10,6 +10,12 @@ export default function Home() {
 
       <ul>
         <li>
+          <Link href="/dashboard" className="flex items-center gap-2">
+            <ArrowRightIcon className="h-5 w-5 text-blue-500" />
+            Dashboard
+          </Link>
+        </li>
+        <li>
           <Link href="/sign-in" className="flex items-center gap-2">
             <ArrowRightIcon className="h-5 w-5 text-blue-500" />
             Login (SignIn)
