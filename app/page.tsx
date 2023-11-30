@@ -1,3 +1,4 @@
+import ThemeChanger from "@/app/ui/theme-changer";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
@@ -28,6 +29,10 @@ export default function Home() {
           </Link>
         </li>
       </ul>
+
+      <hr />
+
+      <ThemeChanger />
     </main>
   );
 }
