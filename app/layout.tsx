@@ -1,15 +1,23 @@
-import { inter } from "@/app/ui/fonts";
+import Providers from "@/app/providers";
+import { leagueSpartan } from "@/app/ui/fonts";
 import "@/app/ui/globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Invoice App",
-    default: "Invoice App",
+    template: "%s | Invoicer",
+    default: "Invoicer",
   },
-  description: "Full-Stack Invoicing Application.",
+  description: "Streamline Your Finances with Invoicer",
   metadataBase: new URL("https://invoice-app-jakubjirous.vercel.app/"),
+  icons: {
+    icon: [
+      {
+        url: "/assets/favicon-light.ico",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -18,9 +26,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <ClerkProvider>
+    <ClerkProvider
+      appearance={{
+        variables: {
+          colorPrimary: "#7C5DFA",
+        },
+      }}
+    >
       <html lang="en">
-        <body className={inter.className}>{children}</body>
+        <Providers>
+          <body
+            className={`${leagueSpartan.className} bg-whisper text-vulcan antialiased dark:bg-steel dark:text-white`}
+          >
+            {children}
+          </body>
+        </Providers>
       </html>
     </ClerkProvider>
   );
