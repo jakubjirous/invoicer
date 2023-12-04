@@ -1,6 +1,6 @@
 import { leagueSpartan } from "@/app/ui/fonts";
 
-export default function InvoicerLogo({ className }: { className: string }) {
+export default function InvoicerLogo({ className }: { className?: string }) {
   return (
     <div
       className={`${className} ${leagueSpartan.className} flex flex-row items-center gap-3 leading-none text-white`}

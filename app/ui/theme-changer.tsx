@@ -1,10 +1,18 @@
 "use client";
 
 import { MoonIcon, SunIcon } from "@heroicons/react/24/outline";
+import clsx from "clsx";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import { twMerge } from "tailwind-merge";
 
-export default function ThemeChanger() {
+export default function ThemeChanger({
+  btnStyle,
+  iconStyle,
+}: {
+  btnStyle?: string;
+  iconStyle?: string;
+}) {
   const { theme, setTheme } = useTheme();
 
   const [mounted, setMounted] = useState(false);
@@ -24,18 +32,28 @@ export default function ThemeChanger() {
           onClick={() => setTheme("light")}
           aria-label="auto"
           aria-live="polite"
-          className="rounded-full p-1 focus:outline-none focus-visible:ring-2"
+          className={twMerge(
+            clsx(
+              "rounded-full p-1 focus:outline-none focus-visible:ring-4 focus-visible:ring-ship/50",
+              btnStyle,
+            ),
+          )}
         >
-          <SunIcon className="stroke-ship focus-visible:ring-ship w-6" />
+          <SunIcon className={twMerge(clsx("w-6 stroke-ship", iconStyle))} />
         </button>
       ) : (
         <button
           onClick={() => setTheme("dark")}
           aria-label="auto"
           aria-live="polite"
-          className="rounded-full p-1 focus:outline-none focus-visible:ring-2"
+          className={twMerge(
+            clsx(
+              "rounded-full p-1 focus:outline-none focus-visible:ring-4 focus-visible:ring-ship/50",
+              btnStyle,
+            ),
+          )}
         >
-          <MoonIcon className="stroke-ship focus-visible:ring-ship w-6" />
+          <MoonIcon className={twMerge(clsx("w-6 stroke-ship", iconStyle))} />
         </button>
       )}
     </>

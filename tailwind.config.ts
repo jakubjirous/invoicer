@@ -32,7 +32,7 @@ const config: Config = {
         spartan: ["var(--font-league-spartan)"],
       },
       fontSize: {
-        "fluid-hero-heading": createFluidValue(50, 80),
+        "fluid-hero-heading": createFluidValue(40, 80),
         "fluid-h1": createFluidValue(28, 36),
         "fluid-h2": createFluidValue(18, 24),
         "fluid-h3": createFluidValue(15, 15),
