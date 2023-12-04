@@ -359,3 +359,5 @@ storybook-static/
 
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,nextjs,jetbrains+all,webstorm+all,node,dotenv,storybookjs,vercel
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/codeStyles/Project.xml

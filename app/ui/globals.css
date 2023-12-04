@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer utilities {
+  .hero-heading {
+    @apply font-spartan text-fluid-hero-heading font-black leading-[100%] tracking-[-0.156rem];
+  }
+
+  h1,
+  .h1 {
+    @apply font-spartan text-fluid-h1 font-bold leading-[2.063rem] tracking-[-0.071rem];
+  }
+
+  h2,
+  .h2 {
+    @apply font-spartan text-fluid-h2 font-bold leading-[1.375rem] tracking-[-0.047rem];
+  }
+
+  h3,
+  .h3 {
+    @apply font-spartan text-fluid-h3 font-bold leading-[1.5rem] tracking-[-0.016rem];
+  }
+
+  h4. .h4 {
+    @apply font-spartan text-fluid-h4 font-bold leading-[0.938rem] tracking-[-0.016rem];
+  }
+
+  .body1 {
+    @apply font-spartan text-fluid-body1 font-medium leading-[1.125rem] tracking-[-0.006rem];
+  }
+
+  .body2 {
+    @apply font-spartan text-fluid-body2 font-medium leading-[0.938rem] tracking-[-0.006rem];
+  }
+}
