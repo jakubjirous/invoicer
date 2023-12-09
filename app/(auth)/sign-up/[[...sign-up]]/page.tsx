@@ -1,4 +1,4 @@
-import { SignUp } from "@clerk/nextjs";
+import ClerkSignUp from "@/app/ui/clerk-sign-up";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <SignUp afterSignUpUrl="/dashboard" />
+      <ClerkSignUp />
     </>
   );
 }
