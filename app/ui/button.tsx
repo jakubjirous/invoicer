@@ -11,13 +11,13 @@ const buttonVariants = cva(
     variants: {
       variant: {
         primary: [
-          "text-white p-2 pr-4 bg-cornflower hover:bg-heliotrope focus-visible:ring-cornflower/50 dark:focus-visible:ring-white/50",
+          "text-white p-2 pr-4 bg-cornflower hover:bg-heliotrope focus-visible:ring-cornflower/50",
         ],
         secondary: [
-          "text-white px-6 bg-cornflower hover:bg-heliotrope focus-visible:ring-cornflower/50 dark:focus-visible:ring-white/50",
+          "text-white px-6 bg-cornflower hover:bg-heliotrope focus-visible:ring-cornflower/50",
         ],
         edit: [
-          "px-6 text-ship bg-whisper hover:bg-selago dark:text-selago dark:bg-ebony dark:hover:bg-white dark:hover:text-ship focus-visible:ring-ebony/50 dark:focus-visible:ring-white/50",
+          "px-6 text-ship bg-whisper hover:bg-selago dark:text-selago dark:bg-ebony dark:hover:bg-white dark:hover:text-ship focus-visible:ring-ship/50",
         ],
         draft: [
           "px-6 bg-oxford text-bali hover:bg-vulcan dark:text-selago dark:bg-oxford dark:hover:bg-mirage focus-visible:ring-bali/50 dark:focus-visible:ring-selago/50",
