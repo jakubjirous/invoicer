@@ -39,4 +39,13 @@
   .body2 {
     @apply font-spartan text-fluid-body2 font-medium leading-[0.938rem] tracking-[-0.006rem];
   }
+
+  /* clerk - overrides */
+  a[class^="cl-internal"] {
+    @apply focus:outline-none focus:ring-0 focus-visible:rounded-[0.625rem] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-cornflower/50;
+  }
+
+  .cl-formFieldErrorText svg[class^="cl-internal"] > path {
+    @apply fill-sienna;
+  }
 }
