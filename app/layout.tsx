@@ -9,7 +9,15 @@ export const metadata: Metadata = {
     template: "%s | Invoicer",
     default: "Invoicer",
   },
-  description: "Streamline Your Finances with Invoicer",
+  applicationName: "Invoicer",
+  authors: {
+    name: "Jakub Jirous",
+    url: "https://www.jakubjirous.dev/",
+  },
+  keywords:
+    "next14, react, typescript, prisma, tailwind, typescript-react, frontendmentor, vercel, frontendmentor-challenge, server-components, clerk-auth, supabase",
+  description:
+    "Optimize Your Finances with Invoicer - Empower Your Business with Seamless Invoice Management",
   metadataBase: new URL("https://invoice-app-jakubjirous.vercel.app/"),
   icons: {
     icon: [

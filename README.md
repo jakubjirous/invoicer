@@ -1,4 +1,4 @@
-# 🚀 Invoice App
+# 🚀 Invoicer
 
 This is a solution to the [Invoice app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/invoice-app-i7KaLTQjl). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -54,8 +54,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/jakubjirous/invoice-app/)
-- Live Site URL: [Vercel](https://invoice-app-jakubjirous.vercel.app/)
+- Solution URL: [GitHub](https://github.com/jakubjirous/invoicer/)
+- Live Site URL: [Vercel](https://invoicer.vercel.app/)
 
 ---
 
@@ -77,6 +77,7 @@ Users should be able to:
 - [Vitest](https://vitest.dev/) – Next Generation Testing Framework
 - [Storybook](https://storybook.js.org/) – Frontend workshop for UI
 - [Tailwind CSS](https://tailwindcss.com/) – CSS Framework
+- [Supabase](https://supabase.com/) – Postgres database
 - [Vercel](https://vercel.com/) – Frontend Cloud
 
 ### What I learned
@@ -113,7 +114,8 @@ Users should be able to:
 - [Vitest Documentation](https://vitest.dev/guide/)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation)
 - [Vercel Documentation](https://vercel.com/docs)
-  - [Postgres](https://vercel.com/docs/storage/vercel-postgres)
+- [Supabase Documentation](https://supabase.com/docs)
+  - [Use Supabase with Next.js](https://supabase.com/docs/guides/getting-started/quickstarts/nextjs)
 
 ---
 

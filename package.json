@@ -1,8 +1,8 @@
 {
-  "name": "invoice-app",
+  "name": "invoicer",
   "version": "1.0.0",
   "private": true,
-  "description": "Full-Stack Invoicing Application",
+  "description": "Optimize Your Finances with Invoicer",
   "keywords": [
     "clerk-auth",
     "frontendmentor",
@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jakubjirous/invoice-app.git"
+    "url": "git+https://github.com/jakubjirous/invoicer.git"
   },
   "license": "MIT",
   "author": "Jakub Jirous <info@jakubjirous.dev>",
