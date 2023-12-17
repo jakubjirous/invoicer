@@ -5,7 +5,7 @@ import React from "react";
 
 const buttonVariants = cva(
   [
-    "inline-flex flex-row items-center justify-center text-[0.938rem] font-spartan font-bold leading-[0.9375rem] tracking-[-0.01563rem] rounded-[1.5rem] h-12 transition-[background,color] duration-500 focus-visible:rounded-3xl focus-visible:outline-none focus-visible:ring-4",
+    "inline-flex flex-row items-center justify-center text-[0.938rem] font-spartan font-bold leading-[0.9375rem] tracking-[-0.01563rem] rounded-[1.5rem] h-12 transition duration-500 focus-visible:rounded-3xl focus-visible:outline-none focus-visible:ring-4",
   ],
   {
     variants: {
@@ -77,13 +77,13 @@ export default function Button({
       {...props}
     >
       {leadingIconTemplate}
-      {children}
+      <span className="mt-0.5">{children}</span>
       {trailingIconTemplate}
     </Link>
   ) : (
     <button className={buttonVariants({ className, variant, size })} {...props}>
       {leadingIconTemplate}
-      {children}
+      <span className="mt-0.5">{children}</span>
       {trailingIconTemplate}
     </button>
   );
