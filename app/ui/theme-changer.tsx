@@ -34,7 +34,7 @@ export default function ThemeChanger({
           aria-live="polite"
           className={twMerge(
             clsx(
-              "rounded-full p-1 focus:outline-none focus-visible:ring-4 focus-visible:ring-ship/50",
+              "rounded-full p-1 transition duration-500 focus:outline-none focus-visible:ring-4 focus-visible:ring-ship/50",
               btnStyle,
             ),
           )}
@@ -48,7 +48,7 @@ export default function ThemeChanger({
           aria-live="polite"
           className={twMerge(
             clsx(
-              "rounded-full p-1 focus:outline-none focus-visible:ring-4 focus-visible:ring-ship/50",
+              "rounded-full p-1 transition duration-500 focus:outline-none focus-visible:ring-4 focus-visible:ring-ship/50",
               btnStyle,
             ),
           )}
