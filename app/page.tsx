@@ -28,11 +28,7 @@ export default function Home() {
               Empower Your Business with Seamless Invoice Management
             </h2>
             <div>
-              <Button
-                href="/sign-in"
-                variant="secondary"
-                className="focus-visible:ring-oxford dark:focus-visible:ring-white"
-              >
+              <Button href="/invoices" variant="secondary">
                 Get Started
               </Button>
             </div>
@@ -153,9 +149,9 @@ export default function Home() {
 
         <ul>
           <li>
-            <Link href="/dashboard" className="flex items-center gap-2">
+            <Link href="/invoices" className="flex items-center gap-2">
               <ArrowRightIcon className="h-5 w-5 text-blue-500" />
-              Dashboard
+              Invoices
             </Link>
           </li>
           <li>
